@@ -1,0 +1,6 @@
+# Secrets & data — NEVER commit (this repo is public)
+# *.json covers service-account keys (google.json) + PII exports (firestore_export.json)
+.env
+*.json
+__pycache__/
+*.pyc
