@@ -1,6 +1,8 @@
 # Secrets & data — NEVER commit (this repo is public)
-# *.json covers service-account keys (google.json) + PII exports (firestore_export.json)
+# *.json covers service-account keys (google.json) + PII exports (firestore_export.json + .csv_state.json)
+# *.csv covers the referral CSV exports — they contain patient PII
 .env
 *.json
+*.csv
 __pycache__/
 *.pyc
